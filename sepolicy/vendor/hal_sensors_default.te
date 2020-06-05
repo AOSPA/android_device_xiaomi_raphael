@@ -1,5 +1,8 @@
 type sound_device, dev_type;
 
+r_dir_file(hal_sensors_default, mnt_vendor_file);
+r_dir_file(hal_sensors_default, persist_audio_file);
+
 allow hal_sensors_default hal_audio_default:unix_stream_socket connectto;
 allow hal_sensors_default audio_socket:sock_file rw_file_perms;
 allow hal_sensors_default sound_device:chr_file rw_file_perms;

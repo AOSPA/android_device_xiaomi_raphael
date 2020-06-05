@@ -1,0 +1,2 @@
+r_dir_file(hal_dpmQmiMgr, mnt_vendor_file);
+r_dir_file(hal_dpmQmiMgr, persist_audio_file);

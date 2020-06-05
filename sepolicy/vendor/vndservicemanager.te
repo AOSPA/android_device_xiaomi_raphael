@@ -1,0 +1,2 @@
+r_dir_file(vndservicemanager, mnt_vendor_file);
+r_dir_file(vndservicemanager, persist_audio_file);

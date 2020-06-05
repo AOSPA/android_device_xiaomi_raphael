@@ -4,4 +4,4 @@ set_prop(vendor_init, persist_camera_prop)
 set_prop(vendor_init, bluetooth_vendor_prop)
 set_prop(vendor_init, exported_fingerprint_prop)
 
-allow vendor_init system_file:file read;
+allow vendor_init system_file:file r_file_perms;

@@ -1,0 +1,2 @@
+r_dir_file(mediacodec, mnt_vendor_file);
+r_dir_file(mediacodec, persist_audio_file);

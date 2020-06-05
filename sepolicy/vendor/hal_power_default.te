@@ -1,2 +1,5 @@
 allow hal_power_default input_device:chr_file { read write };
 allow hal_power_default input_device:chr_file { open };
+
+r_dir_file(hal_power_default, mnt_vendor_file);
+r_dir_file(hal_power_default, persist_audio_file);

@@ -1,5 +1,7 @@
-allow hal_bluetooth_default vendor_bt_data_file:dir { search write };
-allow hal_bluetooth_default vendor_bt_data_file:file { read open write append getattr };
+allow hal_bluetooth_default vendor_bt_data_file:dir rw_dir_perms;
+allow hal_bluetooth_default vendor_bt_data_file:file create_file_perms;
 allow hal_bluetooth_default diag_device:chr_file { read write open ioctl getattr };
-allow hal_bluetooth_default vendor_data_file:file { read write open };
-allow hal_bluetooth_default vendor_bt_data_file:dir { add_name };
+allow hal_bluetooth_default vendor_data_file:file { rw_file_perms create_file_perms };
+allow hal_bluetooth_default vendor_data_file:dir rw_dir_perms;
+
+r_dir_file(hal_bluetooth_default, persist_audio_file);

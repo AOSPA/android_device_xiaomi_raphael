@@ -1,1 +1,6 @@
 allow hal_tetheroffload_default diag_device:chr_file { read write open ioctl };
+allow hal_tetheroffload_default mnt_vendor_file:dir rw_dir_perms;
+allow hal_tetheroffload_default vendor_data_file:dir rw_dir_perms;
+allow hal_tetheroffload_default vendor_data_file:file create_file_perms;
+
+r_dir_file(hal_tetheroffload_default, persist_audio_file);

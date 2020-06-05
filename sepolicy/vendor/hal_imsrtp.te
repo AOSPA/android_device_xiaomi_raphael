@@ -1,1 +1,4 @@
 allow hal_imsrtp diag_device:chr_file { read write open ioctl };
+
+r_dir_file(hal_imsrtp, mnt_vendor_file);
+r_dir_file(hal_imsrtp, persist_audio_file);

@@ -1,0 +1,8 @@
+r_dir_file(hal_drm_clearkey, mnt_vendor_file);
+r_dir_file(hal_drm_clearkey, persist_audio_file);
+
+r_dir_file(hal_drm_widevine, mnt_vendor_file);
+r_dir_file(hal_drm_widevine, persist_audio_file);
+
+r_dir_file(hal_drm_default, mnt_vendor_file);
+r_dir_file(hal_drm_default, persist_audio_file);

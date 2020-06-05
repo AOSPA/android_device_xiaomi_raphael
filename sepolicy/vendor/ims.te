@@ -1,2 +1,5 @@
 allow ims diag_device:chr_file { read write open ioctl };
 allow ims socket_device:sock_file rw_file_perms;
+
+r_dir_file(ims, mnt_vendor_file);
+r_dir_file(ims, persist_audio_file);

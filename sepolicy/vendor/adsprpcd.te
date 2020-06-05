@@ -1,1 +1,4 @@
-r_dir_file(adsprpcd sysfs_graphics)
+r_dir_file(adsprpcd sysfs_graphics);
+
+r_dir_file(adsprpcd, mnt_vendor_file);
+r_dir_file(adsprpcd, persist_audio_file);

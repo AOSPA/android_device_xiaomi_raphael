@@ -3,6 +3,8 @@ allow rild default_prop:chr_file { read };
 allow rild vendor_pd_locater_dbg_prop:chr_file { read };
 allow rild socket_device:dir { write add_name remove_name };
 allow rild socket_device:sock_file { create write setattr };
+allow rild vendor_data_file:dir rw_dir_perms;
+allow rild vendor_data_file:file create_file_perms;
 
 get_prop(rild, miui_prop)
 get_prop(rild, vendor_pd_locater_dbg_prop)

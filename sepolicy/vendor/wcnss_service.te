@@ -1,2 +1,6 @@
 allow wcnss_service vendor_data_file:dir create_dir_perms;
 allow wcnss_service vendor_data_file:file create_file_perms;
+
+r_dir_file(wcnss_service, mnt_vendor_file);
+r_dir_file(wcnss_service, persist_audio_file);
+r_dir_file(wcnss_service, sysfs_net);

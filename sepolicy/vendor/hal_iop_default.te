@@ -1,0 +1,2 @@
+r_dir_file(hal_iop_default, mnt_vendor_file);
+r_dir_file(hal_iop_default, persist_audio_file);

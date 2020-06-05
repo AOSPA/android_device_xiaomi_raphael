@@ -1,2 +1,5 @@
 allow hal_gnss_qti socket_device:dir { write add_name remove_name };
 allow hal_gnss_qti socket_device:sock_file { create write setattr };
+
+r_dir_file(hal_gnss_qti, mnt_vendor_file);
+r_dir_file(hal_gnss_qti, persist_audio_file);

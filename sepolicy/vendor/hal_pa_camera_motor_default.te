@@ -7,6 +7,9 @@ get_prop(hal_pa_camera_motor_default, system_manufacturer_prop)
 
 add_hwservice(hal_pa_camera_motor_default, hal_motor_hwservice_xiaomi)
 
+r_dir_file(hal_pa_camera_motor_default, mnt_vendor_file);
+r_dir_file(hal_pa_camera_motor_default, persist_audio_file);
+
 allow hal_pa_camera_motor_default mnt_vendor_file:dir { search };
 allow hal_pa_camera_motor_default drv8846_device:chr_file rw_file_perms;
 allow hal_pa_camera_motor_default akm09970_device:chr_file rw_file_perms;

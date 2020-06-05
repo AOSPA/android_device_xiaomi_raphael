@@ -1,2 +1,5 @@
 allow location socket_device:dir { write add_name remove_name };
 allow location socket_device:sock_file { create write setattr };
+
+r_dir_file(location, mnt_vendor_file);
+r_dir_file(location, persist_audio_file);

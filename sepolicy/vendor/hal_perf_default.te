@@ -1,4 +1,9 @@
 r_dir_file(hal_perf_default, sysfs_thermal)
+r_dir_file(hal_perf_default, mnt_vendor_file);
+r_dir_file(hal_perf_default, persist_audio_file);
+
+allow hal_perf_default vendor_data_file:dir create_dir_perms;
+allow hal_perf_default vendor_data_file:file create_file_perms;
 allow hal_perf_default sysfs_thermal:file w_file_perms;
 allow hal_perf_default system_server:dir { read search open };
 allow hal_perf_default system_server:file { read getattr open };
