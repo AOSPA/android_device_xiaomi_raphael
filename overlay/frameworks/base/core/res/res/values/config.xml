@@ -650,9 +650,4 @@
     <!-- Radius of the software rounded corners. -->
     <dimen name="rounded_corner_radius">103px</dimen>
 
-    <!-- The name of the package that will hold the assistant role by default. -->
-    <string name="config_defaultAssistant" translatable="false">com.google.android.googlequicksearchbox</string>
-    <!-- Component name that should be granted Notification Assistant access -->
-    <string name="config_defaultAssistantAccessComponent" translatable="false">com.google.android.ext.services/android.ext.services.notification.Assistant</string>
-
 </resources>
