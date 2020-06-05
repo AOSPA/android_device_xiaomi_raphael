@@ -22,11 +22,8 @@
 
 #include <fstream>
 
-#define LCD_LED         "/sys/class/backlight/panel0-backlight/"
+#define BRIGHTNESS_PATH "/sys/class/backlight/panel0-backlight/brightness"
 
-#define BRIGHTNESS      "brightness"
-
-#define MAX_LED_BRIGHTNESS    255
 #define MAX_LCD_BRIGHTNESS    2047
 
 namespace {
@@ -83,7 +80,7 @@ static inline uint32_t getScaledBrightness(const LightState& state, uint32_t max
 
 static void handleBacklight(const LightState& state) {
     uint32_t brightness = getScaledBrightness(state, MAX_LCD_BRIGHTNESS);
-    set(LCD_LED BRIGHTNESS, brightness);
+    set(BRIGHTNESS_PATH, brightness);
 }
 
 static inline bool isStateLit(const LightState& state) {
