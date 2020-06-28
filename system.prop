@@ -8,6 +8,7 @@ persist.vendor.btstack.connect.peer_earbud=true
 persist.vendor.btstack.enable.twsplussho=true
 ro.bluetooth.emb_wp_mode=false
 ro.bluetooth.wipower=false
+persist.vendor.bt.a2dp.aac_whitelist=false
 
 # Camera
 persist.camera.sat.fallback.dist.d=10
