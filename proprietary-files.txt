@@ -697,19 +697,27 @@ vendor/etc/perf/thermalboost.conf
 vendor/lib/vendor.qti.hardware.perf@2.0.so
 vendor/lib64/vendor.qti.hardware.perf@2.0.so
 
-# Perf - from LA.UM.8.1.r1-14300-sm8150.0
+# Perf - from LA.UM.8.1.r1-15100-sm8150.0
 vendor/bin/msm_irqbalance|0e967f5c7eaf8d863a50996459101be47adf96a2
 vendor/etc/perf/perfboostsconfig.xml|93e57b38e327bfbc174e925d639745e66949229b
-vendor/lib/libperfgluelayer.so|dad079097e6db49514e1e31636b63da6a89da5fd
-vendor/lib/libqti-perfd-client.so|c29e14a9c0c7e330dda3b7453d0cb242944c4c38
-vendor/lib/libqti-perfd.so|b7f3d0adcaa7036c27d10c53b0454f37d4b56268
+vendor/lib/libperfgluelayer.so|d9729eff2b6da7a3b65f6f985cf77dbec0dab6a3
+vendor/lib/libqti-perfd-client.so|5d3e9fff53cef7e077996311205c74963fce54c3
+vendor/lib/libqti-perfd.so|478d8b235f30587574206ebfa782bc62c08314d2
 vendor/lib/libqti-util.so|72cc63fd039cf4aa7c6b62f53a1f2e4bada05f42
-vendor/lib64/liblearningmodule.so|fb4c9e97e5b1f50babc83318815d5e251afa140b
+vendor/lib64/libappclassifier.so|d7e5ef7091dea9a5cfd47f7af73d798a8cb2e012
+vendor/lib64/liblearningmodule.so|6100b70c0bac9bde237b725bffec734e7e4b03c2
 vendor/lib64/libmeters.so|09f178dee1aa074f12fac5c502a7a6436ce93716
-vendor/lib64/libperfgluelayer.so|4c95e08abc1cef5b39db06579d8f9faceb8f23d4
-vendor/lib64/libqti-perfd-client.so|0c2b82b5e5df6e0efb03ace4a259eb63487dd2b6
-vendor/lib64/libqti-perfd.so|7a6c75d2ec8ba7ed6bf17ef048c3c79a1a2daf53
+vendor/lib64/libperfconfig.so|b98f8f25455d406c05327a59b9c75698a953a8cb
+vendor/lib64/libperfgluelayer.so|0bf84cafdc9922ad5b40d2a4aca05bd4fcd637be
+vendor/lib64/libqti-perfd-client.so|7089fa216b06fc78127b51df6cade6518886a463
+vendor/lib64/libqti-perfd.so|e3d355239ba7e5b56cb78fbd7c543da7e809c392
 vendor/lib64/libqti-util.so|45a80be449435d277f09cc59e4a315fa86072c41
+vendor/lib64/libqti-utils.so|3726d65486928bc014e657960dc023d920524922
+vendor/lib64/libmeters-ns.so|4a0e2add087e0389b445207288a430a82320dffe
+vendor/lib64/libgameoptfeature.so|e5d434ec0592cc247e83392563f7d5a13638819c
+vendor/lib64/libadaptlaunch.so|080972ef571ac7dae2fbf8d338241b0813609618
+vendor/lib/libqti-utils.so|81d3d40097615baad8ff77a6ba3e6ec0706b4d71
+vendor/lib/libperfconfig.so|a84093fd336302be3106f8a81b4139922a107dda
 
 # Peripheral
 vendor/bin/pm-proxy
