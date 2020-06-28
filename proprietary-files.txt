@@ -609,34 +609,34 @@ vendor/lib/libgcs-osal.so
 vendor/lib/libgcs.so
 vendor/lib/libsmwrapper.so
 
-# Media - from LA.UM.8.1.r1-14500-sm8150.0
+# Media - from LA.UM.8.1.r1-15100-sm8150.0
 vendor/bin/hw/vendor.qti.media.c2@1.0-service|80ea3c27b7c1d92c5d5a9fc7f8cfb18aa3eb227a
-vendor/bin/vppservice|619ee3c568de86f0d9a67f007b6eb70011751b2a
+vendor/bin/vppservice|0a22a4f4b554063805579fcdc820ae15b92d3b13
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0804f6620678
 vendor/lib/libdsd2pcm.so|a5b2a566ab24322b571ea5c1ae224381e951f91b
-vendor/lib/libMpeg4SwEncoder.so|92a4701711a06c52e117aceef1c112e4882f563d
+vendor/lib/libMpeg4SwEncoder.so|a0a62a704be4e28971f2cc047026c9f66f9f789e
 vendor/lib/libmulawdec.so|57d963f8038bf807683c5ec69e2db14281d9ed90
-vendor/lib/libOmxAacDec.so|8abbe90fc7802512dcb8bf8026f797d8ad4b5ebe
+vendor/lib/libOmxAacDec.so|a626a383fcfcf5291c1c58cbc734809838de5f85
 vendor/lib/libOmxAlacDec.so|1b476e700c5861c0164d58cf09fcaa5b328b6c6b
-vendor/lib/libOmxAlacDecSw.so|be159db8fab5d4d73e5026788cb78f902724be93
+vendor/lib/libOmxAlacDecSw.so|bf8960a5dd438c57335f6b9e3bde4350722702d2
 vendor/lib/libOmxAmrDec.so|ea56aeddb162c6cbf43d2a2eb90ebfeb1f5ac92f
 vendor/lib/libOmxAmrwbplusDec.so|f7f9517397d23b8eb73a251c2f27c1aff55d23ec
 vendor/lib/libOmxApeDec.so|0de0284e4dc2e3bb03aef289a7ab9968746b9e70
-vendor/lib/libOmxApeDecSw.so|2ba921a2b0c71907b604003127b97e3bf4b26bc1
-vendor/lib/libOmxDsdDec.so|39ea2c0e9ec6c6adc6684feb1db28dce8ee6f8df
-vendor/lib/libOmxEvrcDec.so|b7faec88cd37639ae19ad3e65f2f1f2328c47991
+vendor/lib/libOmxApeDecSw.so|4b446388383dbace47da2021ba3a99a9fb7125e0
+vendor/lib/libOmxDsdDec.so|a702b1fdd1b8feedce8b840d527eb169a0042ef5
+vendor/lib/libOmxEvrcDec.so|b055d7455f3f52eeaa78f27de530faa875cd5d93
 vendor/lib/libOmxG711Dec.so|5222a2c0b357c5fb2bfe3c076144247b28143bd3
-vendor/lib/libOmxMux_proprietary.so|175c8d61d7bc7f793842e5b46370dde659dbbb1a
+vendor/lib/libOmxMux_proprietary.so|88d9e49d06c194b73f9333545715d6aaa0e88acb
 vendor/lib/libOmxQcelp13Dec.so|9f7c6df8af7dfda8a814060aa0f4f89f15e3bd2c
 vendor/lib/libOmxWmaDec.so|3ec1cf02686119e6cc6cc9d41638ab9efdb8bbec
-vendor/lib/libvppclient.so|c49779329e8f830c93dfe869a45c0f287cd98807
-vendor/lib/libvpphcp.so|debcf37598b1a0c2510a287c3cdf277d4a92cc33
-vendor/lib/libvpphvx.so|44436688c9da13ed5abb3cba5260c7833e10564b
-vendor/lib64/libMpeg4SwEncoder.so|453a9b47c9e430ea7476d41f14abaa5d16cb318b
+vendor/lib/libvppclient.so|e7ab0ccf0be6683197ad381a9ea480f9b143484e
+vendor/lib/libvpphcp.so|66006b90bdb285e712108acd4edf73a72df20e0b
+vendor/lib/libvpphvx.so|196ecf98c24941b2dff86813a212064c0108ef4d
+vendor/lib64/libMpeg4SwEncoder.so|e154fad899e5d848db2816b2f2ca926d6e460c11
 vendor/lib64/libmulawdec.so|2f8cd09580892a2bfa4f8e711895e2b08340d0ed
-vendor/lib64/libvppclient.so|ac61437c920a1fa1a97e56a1c1be356db2730cad
-vendor/lib64/libvpphcp.so|6c0b520a9b81a194f53c554c14472081dbe0593a
-vendor/lib64/libvpphvx.so|ec33c14302d9ee2729f435ada8843965ea416600
+vendor/lib64/libvppclient.so|da2c7e5218e8590cfd7142b1041338865df6bab3
+vendor/lib64/libvpphcp.so|91b4583c4f64f34581672811af7971cafa581fbe
+vendor/lib64/libvpphvx.so|00323a5843b127d9054e9203cac458e6dd60b6f3
 
 # Media
 vendor/lib/libOmxVpp.so
