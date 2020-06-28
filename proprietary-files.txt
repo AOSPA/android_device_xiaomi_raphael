@@ -943,11 +943,11 @@ vendor/etc/thermal-tgame.conf
 vendor/etc/thermald-devices.conf
 vendor/lib64/libthermalclient.so
 
-# Time - from LA.UM.8.1.r1-14300-sm8150.0
--vendor/app/TimeService/TimeService.apk|4a37afd1395758d946580af184a738e3c657b1e2
-vendor/bin/time_daemon|e57abec59dfecb659d8349b5a3e87a0beca4e932
+# Time - from LA.UM.8.1.r1-15100-sm8150.0
+-vendor/app/TimeService/TimeService.apk|c935b678fdaed033513f044f6492361c3370f9f0
+vendor/bin/time_daemon|b373ff82d30fb535a810347462728140e70ce9e8
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
-vendor/lib64/libtime_genoff.so|f7e70ecdae66c5e07662e5a8562a3297994bdbe6
+vendor/lib64/libtime_genoff.so|216cbb72e22a0ca76d766dc0b84055c5b31e0a4c
 
 # Vibrator
 vendor/bin/hw/vendor.qti.hardware.vibrator@1.2-service
