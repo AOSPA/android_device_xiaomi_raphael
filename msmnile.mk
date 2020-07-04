@@ -333,10 +333,6 @@ PRODUCT_PACKAGES += \
 # Paranoid Doze
 PRODUCT_PACKAGES += ParanoidDoze
 
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service
-
 # QMI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
