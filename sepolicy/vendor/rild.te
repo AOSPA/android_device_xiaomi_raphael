@@ -15,3 +15,6 @@ get_prop(rild, carrier_prop)
 get_prop(rild, mod_device_prop)
 get_prop(rild, build_flavor_prop)
 get_prop(rild, cust_test_prop)
+
+r_dir_file(rild, mnt_vendor_file);
+r_dir_file(rild, persist_audio_file);

@@ -1,1 +1,5 @@
 allow hvdcp kmsg_device:chr_file { getattr write open };
+allow hvdcp self:capability sys_admin;
+
+r_dir_file(hvdcp, mnt_vendor_file);
+r_dir_file(hvdcp, persist_audio_file);

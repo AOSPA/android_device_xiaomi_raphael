@@ -9,6 +9,7 @@ r_dir_file(hal_wifi_default, persist_audio_file);
 allow hal_wifi_supplicant_default vendor_data_file:dir create_dir_perms;
 allow hal_wifi_supplicant_default vendor_data_file:file create_file_perms;
 allow hal_wifi_supplicant_default vendor_data_file:sock_file create_file_perms;
+allow hal_wifi_supplicant_default self:capability sys_admin;
 r_dir_file(hal_wifi_supplicant_default, mnt_vendor_file);
 r_dir_file(hal_wifi_supplicant_default, persist_audio_file);
 

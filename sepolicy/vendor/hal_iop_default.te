@@ -1,2 +1,4 @@
+allow hal_iop_default self:capability sys_admin;
+
 r_dir_file(hal_iop_default, mnt_vendor_file);
 r_dir_file(hal_iop_default, persist_audio_file);

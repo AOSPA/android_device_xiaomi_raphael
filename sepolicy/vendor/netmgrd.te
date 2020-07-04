@@ -1,6 +1,7 @@
 allow netmgrd diag_device:chr_file { read write open ioctl };
 allow netmgrd socket_device:dir { write add_name remove_name };
 allow netmgrd socket_device:sock_file { create write unlink setattr };
+allow netmgrd self:capability sys_admin;
 
 r_dir_file(netmgrd, mnt_vendor_file);
 r_dir_file(netmgrd, persist_audio_file);

@@ -1,0 +1,2 @@
+r_dir_file(wfdhdcphalservice_qti, mnt_vendor_file);
+r_dir_file(wfdhdcphalservice_qti, persist_audio_file);

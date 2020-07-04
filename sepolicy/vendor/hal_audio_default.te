@@ -15,3 +15,4 @@ allow hal_audio_default audio_socket:sock_file rw_file_perms;
 allow hal_audio_default property_socket:sock_file { write };
 allow hal_audio_default init:unix_stream_socket { connectto };
 allow hal_audio_default diag_device:chr_file { read write open ioctl getattr };
+allow hal_audio_default system_suspend_hwservice:hwservice_manager { find };

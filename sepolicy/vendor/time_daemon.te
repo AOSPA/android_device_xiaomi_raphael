@@ -1,0 +1,2 @@
+r_dir_file(time_daemon, mnt_vendor_file);
+r_dir_file(time_daemon, persist_audio_file);

@@ -1,0 +1,2 @@
+r_dir_file(vendor_per_proxy, mnt_vendor_file);
+r_dir_file(vendor_per_proxy, persist_audio_file);

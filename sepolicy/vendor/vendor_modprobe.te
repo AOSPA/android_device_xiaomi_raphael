@@ -1,2 +1,4 @@
 r_dir_file(vendor_modprobe, mnt_vendor_file);
 r_dir_file(vendor_modprobe, persist_audio_file);
+
+allow vendor_modprobe self:capability sys_admin;
