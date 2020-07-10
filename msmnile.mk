@@ -121,9 +121,12 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.bluetooth_audio@1.0.vendor \
     liba2dpoffload \
     libbluetooth_qti \
+    libldacBT_dec \
     libbtconfigstore \
     libhdmiedid \
     libhfp \
+	libbthost_if \
+	libbt-hidlclient \
     libsndmonitor \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor
