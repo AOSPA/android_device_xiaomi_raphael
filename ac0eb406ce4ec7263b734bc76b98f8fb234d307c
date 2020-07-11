@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1610a500_f46c899b",
+        "filename": "msmnile.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-07-11T04:30:33Z",
+      "side": 1,
+      "message": "Is this open source? Last time I looked only the encoder was.",
+      "revId": "ac0eb406ce4ec7263b734bc76b98f8fb234d307c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "acc186fc_14c9fac2",
+        "filename": "msmnile.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-07-11T04:30:33Z",
+      "side": 1,
+      "message": "Don\u0027t think this is open source anymore",
+      "revId": "ac0eb406ce4ec7263b734bc76b98f8fb234d307c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
