@@ -121,6 +121,21 @@ vendor/lib/libcdsp_default_listener.so|5c54c6f6aadda190eb39353159fa5a10183142f1
 vendor/lib64/libcdsprpc.so|53628b8da7b2fc3453723913bd89b2d83e760d71
 vendor/lib64/libcdsp_default_listener.so|33260b098ddde2d0e6cf44b11f12e4c16264fda5
 
+# CVP
+vendor/bin/hw/vendor.qti.hardware.cvp@1.0-service
+vendor/etc/init/vendor.qti.hardware.cvp@1.0-service.rc
+vendor/lib/hw/vendor.qti.hardware.cvp@1.0-impl.so
+vendor/lib/libcvp.so
+vendor/lib/libcvp_common.so
+vendor/lib/libcvp_stub.so
+vendor/lib/vendor.qti.hardware.cvp@1.0.so
+vendor/lib64/hw/vendor.qti.hardware.cvp@1.0-impl.so
+vendor/lib64/libcvp.so
+vendor/lib64/libcvp_common.so
+vendor/lib64/libcvp_stub.so
+vendor/lib64/vendor.qti.hardware.cvp@1.0.so
+vendor/lib64/vendor.qti.hardware.cvp@1.0-halimpl.so
+
 # CNE
 -vendor/app/CneApp/CneApp.apk
 vendor/bin/cnd
