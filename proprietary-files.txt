@@ -698,13 +698,11 @@ vendor/lib64/unnhal-acc-hvx.so
 vendor/lib/libsn100u_fw.so
 
 # Pasrmanager
+-vendor/app/pasrservice/pasrservice.apk
+vendor/bin/hw/vendor.qti.power.pasrmanager@1.0-service
+vendor/etc/init/vendor.qti.power.pasrmanager@1.0-service.rc
+vendor/lib64/hw/vendor.qti.power.pasrmanager@1.0-impl.so
 vendor/lib64/vendor.qti.power.pasrmanager@1.0.so
-
-# Pasrmanager - from LA.UM.8.1.r1-15100-sm8150.0
--vendor/app/pasrservice/pasrservice.apk|83a95a84d1cb937823a8c0c722b06967f641e031
-vendor/bin/hw/vendor.qti.power.pasrmanager@1.0-service|3a8cc6a7774f23b008870206ab862ad2e7dcdb46
-vendor/etc/init/vendor.qti.power.pasrmanager@1.0-service.rc|b34c1b9179c89cd47adce145bae9a609e5141bc0
-vendor/lib64/hw/vendor.qti.power.pasrmanager@1.0-impl.so|859e803ff54fd2411b5e53acb773d66f9fdd9585
 
 # Perf
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
