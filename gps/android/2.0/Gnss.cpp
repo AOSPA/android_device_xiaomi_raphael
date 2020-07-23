@@ -681,7 +681,11 @@ Return<sp<V2_0::IGnssDebug>> Gnss::getExtensionGnssDebug_2_0() {
 }
 
 Return<sp<V2_0::IGnssBatching>> Gnss::getExtensionGnssBatching_2_0() {
-    return nullptr;
+    ENTRY_LOG_CALLFLOW();
+    if (mGnssBatching == nullptr) {
+        mGnssBatching = new GnssBatching();
+    }
+    return mGnssBatching;
 }
 
 V1_0::IGnss* HIDL_FETCH_IGnss(const char* hal) {
