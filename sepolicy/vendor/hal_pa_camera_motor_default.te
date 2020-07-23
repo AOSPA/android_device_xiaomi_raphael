@@ -1,7 +1,4 @@
 type hal_motor_hwservice_xiaomi, hwservice_manager_type;
-type akm09970_device, dev_type, mlstrustedobject;
-type drv8846_device, dev_type, mlstrustedobject;
-type sysfs_oem, sysfs_type, fs_type;
 
 get_prop(hal_pa_camera_motor_default, system_manufacturer_prop)
 

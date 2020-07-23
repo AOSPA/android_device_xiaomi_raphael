@@ -1,5 +1,3 @@
-type audio_socket, file_type;
-
 allow hal_audio_default sysfs:dir { read };
 allow hal_audio_default sysfs:dir { open };
 allow hal_audio_default vendor_data_file:dir rw_dir_perms;
