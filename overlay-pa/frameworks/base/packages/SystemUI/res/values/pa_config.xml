@@ -17,10 +17,7 @@
 */
 -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Allow devices to hide black gradient behind QS Panel -->
-    <bool name="config_hideQSBlackGradient">true</bool>
-    
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
     <!-- Color of the FOD view -->
     <color name="config_fodColor">#ccccac</color>
 </resources>
